@@ -4,7 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fefec0e-3d60-4d8c-b778-2e9502b16fde" name="Changes" comment="" />
+    <list default="true" id="3fefec0e-3d60-4d8c-b778-2e9502b16fde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/SauceFinalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/SauceFinalStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/SauceFinalSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SauceDemoFinal.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/GooglePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/SaucePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/DemoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/FinalTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/GoogleRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/SauceStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GoogleSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SauceSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mi-proyecto-serenity-maven-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/mi-proyecto-serenity-maven-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/03fc9ed576f1d41efac6dcda1527f1ac3fdb0c606d67a6fa3791431e71a57d02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0ae73329a16a3db7389731bbc0fdad7dde7325a77550cd0a8f6312283bfcede5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1605fb1857c6e4590abbf6cfbb80c0e28e9924ca95868ddd95632ada9a95a059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/16fb3d5722eda8333c888dff96095e9fba2b06908ed30558a12e4a53358c1e69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/195bc2b6c828acaef1a1abc694e7ded6de4ae77579235b414a9e1b2782952b45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1c086ef5ba86fffbc07ab3926677766b5f4cd66df88d7288309cf40a4c367182.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/21fa8482f02f4d36617a4d3151eb71f079d9d505c69c67246d73c33588ddbf00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2f3f57462e0f87a3dee2e61e52023715f091fe13035a1ff1738b0266e71b8d2e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/307eba212c61aab963264ed5689ac842a48f921e6fe637e041a26f317abf7cf8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3220cd8e5035afd025dea5a052f7ddca8da02fe1b331315ea7516f2230af66f3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/411978162bac24245c54a05aff01dba1d153c6f426b25f8d1ad6fc019db2bc8f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5a1ae3f0af896a3ad2698a620c56d26129e2e74d236ccfcb5c557d6d833d7bd0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/673ae268143a82d4f865d08379a4760de8686190dbedb511be075c425e77a6a5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7aea878d1dc916323ae79fefa75bfba73fe053c7565304b6ca6666d95280e2b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/82d84fd9dfe101e74f3ed9f4093e87df24e932c3e3f2c612a15291484fb2b758.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/850aa49842880c224961bd302c0ff131744c15846a854bdbaa6e0b6e9a701fbe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8b07071bffa7e6abc35ac0f8e77e907a9b0b475258819c2b4ac0e77c7ea8c453.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8c0f9018da7a4f9c350ffa657b212af6a6fbd13fe1508635732aa7c88b904555.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/94fbe0d18790467282364b4c9800618482de0863d30487f06bd34185dd6e3767.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/959a9b737c10d6f992677be4353895623f02ee63db9a9459d2aa83a6b7ddcb6c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9b1b6677d10e59ec25868d2eee41691e1d7e024bcb9b166429a2543f4db45422.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7aea878d1dc916323ae79fefa75bfba73fe053c7565304b6ca6666d95280e2b9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-cb63faa7d1a023330614eaf41e2f3e682813a56850c45b00b8015f3a74fd0d91.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f72f6b1fd3560c2325926a87016000b5a00d6a1fde0dada2e463779e559b6c73.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a1417947d6f6a04ea34b9f23d936ea420c3170bd574d5a135a8e2708da428a20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b74c0ecd944a290e26e760a444d92acc262349906067f703f36cb4fd75ea349a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bb000ba78bc0fa3daa95c87194767dbca0a3245a8800e0e866748c5a7ecee3d7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/cb63faa7d1a023330614eaf41e2f3e682813a56850c45b00b8015f3a74fd0d91.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartjs/chartjs-plugin-datalabels@2.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dab7199c0a6c6a345e3a0a4b52ad27d73b094c58633b8db3bdf822fc0ae08c33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f3c6bb21eb5bd1accf5bd9eeb33bcb549eb8ee81fd6970d9ca4d04c1f31321d3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f72f6b1fd3560c2325926a87016000b5a00d6a1fde0dada2e463779e559b6c73.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/GooglePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/SaucePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/DemoRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/GoogleRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/serenity.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/SauceStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/GoogleSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SauceSteps.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +87,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -29,15 +104,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.DemoRunner.executor": "Run",
+    "JUnit.FinalTestSuite.executor": "Run",
     "JUnit.GoogleRunner (1).executor": "Run",
     "JUnit.GoogleRunner.executor": "Run",
+    "Karate.runner.executor": "Run",
+    "Maven.mi-proyecto-serenity-maven [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.google.cloudcode.ide_session_index": "20260222_0001",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Diego/Desktop/NUEVO PROYECTO NTT DATA/18-HernándezTerronesDiegoTestingFinalWeb",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -46,8 +126,8 @@
       <recent name="C:\Users\Diego\Desktop\NUEVO PROYECTO NTT DATA\18-HernándezTerronesDiegoTestingFinalWeb\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoRunner">
-    <configuration name="DemoRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FinalTestSuite">
+    <configuration name="FinalTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mi-proyecto-serenity-maven" />
       <extension name="coverage">
         <pattern>
@@ -56,54 +136,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.DemoRunner" />
+      <option name="MAIN_CLASS_NAME" value="runner.FinalTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mi-proyecto-serenity-maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.GoogleRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoogleRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mi-proyecto-serenity-maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.GoogleRunner" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Dcucumber.filter.tags=@SAUCE-1" />
+    <configuration name="runner" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
+      <option name="karatePath" value="$PROJECT_DIR$/src/test/java/runner" />
+      <module name="mi-proyecto-serenity-maven 2" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DemoRunner" />
-      <item itemvalue="JUnit.GoogleRunner (1)" />
-      <item itemvalue="JUnit.GoogleRunner" />
+      <item itemvalue="JUnit.FinalTestSuite" />
+      <item itemvalue="Karate.runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoRunner" />
-        <item itemvalue="JUnit.GoogleRunner (1)" />
-        <item itemvalue="JUnit.GoogleRunner" />
+        <item itemvalue="JUnit.FinalTestSuite" />
+        <item itemvalue="Karate.runner" />
       </list>
     </recent_temporary>
   </component>
