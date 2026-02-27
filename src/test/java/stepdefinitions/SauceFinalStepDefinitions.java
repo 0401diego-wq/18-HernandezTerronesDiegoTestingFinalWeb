@@ -25,7 +25,6 @@ public class SauceFinalStepDefinitions {
     }
 
     @Y("completa el proceso de checkout")
-    @Y("finaliza el checkout con sus datos personales")
     public void completarCheckout() {
         diegoSteps.terminarCompraConDatos();
     }
@@ -44,6 +43,28 @@ public class SauceFinalStepDefinitions {
     public void ordenarPorPrecio(String criterio) {
         diegoSteps.ordenarProductosPor(criterio);
     }
+
+    @Cuando("el usuario hace scroll hasta el final de la página")
+    public void hacerScroll() {
+        diegoSteps.hacerScrollAlFooter();
+    }
+
+    @Cuando("el usuario abre el menú lateral")
+    public void abrirMenu() {
+        diegoSteps.abrirMenu();
+    }
+
+    @Y("hace clic en la opción {string}")
+    public void clicarOpcion(String opcion) {
+        diegoSteps.clickOpcionMenu(opcion);
+    }
+
+    @Y("hace clic en el nombre del producto {string}")
+    public void clicProducto(String nombre) {
+        diegoSteps.clicNombreProducto(nombre);
+    }
+
+    // --- VALIDACIONES ---
 
     @Entonces("debería ver el mensaje de éxito {string}")
     public void validarExito(String msj) {
@@ -64,5 +85,25 @@ public class SauceFinalStepDefinitions {
     @Entonces("el primer producto debería ser {string}")
     public void validarPrimerProducto(String nombreProducto) {
         diegoSteps.validarNombrePrimerProducto(nombreProducto);
+    }
+
+    @Entonces("debería ver los iconos de redes sociales")
+    public void validarIconos() {
+        diegoSteps.verificarIconosSociales();
+    }
+
+    @Entonces("debería ser redirigido a la página de login")
+    public void validarPaginaLogin() {
+        diegoSteps.verificarPaginaLogin();
+    }
+
+    @Entonces("debería ver la descripción del producto")
+    public void validarDescripcion() {
+        diegoSteps.verificarDescripcionProducto();
+    }
+
+    @Entonces("el footer debería decir {string}")
+    public void validarFooter(String texto) {
+        diegoSteps.verificarTextoFooter(texto);
     }
 }

@@ -10,5 +10,5 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions",
         tags = "@CasosFinales"
 )
-public class FinalTestSuite { // El nombre DEBE coincidir con el archivo .java
+public class FinalTestSuite {
 }

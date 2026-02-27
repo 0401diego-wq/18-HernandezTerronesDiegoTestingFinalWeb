@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.FinalTestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.62 s -- in runner.FinalTestSuite
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.13 s -- in runner.FinalTestSuite

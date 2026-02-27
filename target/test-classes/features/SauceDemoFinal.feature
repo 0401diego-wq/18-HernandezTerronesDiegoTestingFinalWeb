@@ -1,6 +1,6 @@
 # language: es
 @CasosFinales
-Característica: Automatización de la tarea final SauceDemo
+Característica: Automatización de la tarea final SauceDemo - 10 Casos
 
   Antecedentes:
     Dado que el usuario abre la página de SauceDemo
@@ -40,3 +40,28 @@ Característica: Automatización de la tarea final SauceDemo
     Cuando ingresa las credenciales de un usuario "standard"
     Y ordena los productos por "Price (low to high)"
     Entonces el primer producto debería ser "Sauce Labs Onesie"
+
+  @CasoTarea-7 @HappyPath
+  Escenario: Verificar presencia de iconos de redes sociales
+    Cuando ingresa las credenciales de un usuario "standard"
+    Y el usuario hace scroll hasta el final de la página
+    Entonces debería ver los iconos de redes sociales
+
+  @CasoTarea-8 @HappyPath
+  Escenario: Cerrar sesión correctamente desde el menú
+    Cuando ingresa las credenciales de un usuario "standard"
+    Y el usuario abre el menú lateral
+    Y hace clic en la opción "Logout"
+    Entonces debería ser redirigido a la página de login
+
+  @CasoTarea-9 @HappyPath
+  Escenario: Validar que se puede abrir la descripción de un producto
+    Cuando ingresa las credenciales de un usuario "standard"
+    Y hace clic en el nombre del producto "Sauce Labs Backpack"
+    Entonces debería ver la descripción del producto
+
+  @CasoTarea-10 @HappyPath
+  Escenario: Verificar texto de copyright en el footer
+    Cuando ingresa las credenciales de un usuario "standard"
+    Y el usuario hace scroll hasta el final de la página
+    Entonces el footer debería decir "© 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy"
